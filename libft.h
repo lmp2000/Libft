@@ -6,7 +6,7 @@
 /*   By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:24:26 by lude-jes          #+#    #+#             */
-/*   Updated: 2025/11/02 21:10:43 by lude-jes         ###   ########.fr       */
+/*   Updated: 2025/11/02 21:39:00 by lude-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
-}	t_list;
+}					t_list;
 
 
 int		ft_isalpha(int c);

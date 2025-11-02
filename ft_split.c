@@ -6,7 +6,7 @@
 /*   By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 17:10:56 by lude-jes          #+#    #+#             */
-/*   Updated: 2025/10/29 17:45:26 by lude-jes         ###   ########.fr       */
+/*   Updated: 2025/11/02 21:35:09 by lude-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,3 +102,21 @@ char	**ft_split(char const *s, char c)
 	result[i] = NULL;
 	return (result);
 }
+
+/* int	main(void)
+{
+	char	**result;
+	int		i;
+
+	result = ft_split("hello world 42", ' ');
+	
+	i = 0;
+	while (result[i])
+	{
+		printf("%s\n", result[i]);
+		free(result[i]);
+		i++;
+	}
+	free(result);
+	return (0);
+} */
