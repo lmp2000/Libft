@@ -6,13 +6,14 @@
 /*   By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 13:24:26 by lude-jes          #+#    #+#             */
-/*   Updated: 2025/11/01 17:17:20 by lude-jes         ###   ########.fr       */
+/*   Updated: 2025/11/01 19:38:00 by lude-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <string.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
