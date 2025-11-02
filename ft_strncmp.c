@@ -6,7 +6,7 @@
 /*   By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 21:19:16 by lude-jes          #+#    #+#             */
-/*   Updated: 2025/10/26 21:33:04 by lude-jes         ###   ########.fr       */
+/*   Updated: 2025/11/02 21:02:32 by lude-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	int	i;
+	size_t	i;
 	
 	i = 0;
 	while (s1[i] && s2[i] && i < n)
