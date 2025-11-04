@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+         #
+#    By: lude-jes <lude-jes@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/02 19:10:38 by lude-jes          #+#    #+#              #
-#    Updated: 2025/11/02 19:18:42 by lude-jes         ###   ########.fr        #
+#    Updated: 2025/11/04 15:05:35 by lude-jes         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,9 +25,9 @@ SRCS		= 	ft_isalnum.c ft_isprint.c ft_memcmp.c ft_putchar_fd.c ft_split.c \
 
 OBJS		= $(SRCS:.c=.o)
 
-BONUS		=	ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c \
-				ft_lstdelone.c ft_lstlast.c ft_lstmap.c \
-				ft_lstnew.c ft_lstsize.c ft_lstiter.c
+BONUS		=	ft_lstadd_back_bonus.c ft_lstadd_front_bonus.c ft_lstclear_bonus.c \
+				ft_lstdelone_bonus.c ft_lstlast_bonus.c ft_lstmap_bonus.c \
+				ft_lstnew_bonus.c ft_lstsize_bonus.c ft_lstiter_bonus.c
 
 BONUS_OBJS	= $(BONUS:.c=.o)
 
