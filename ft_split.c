@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lude-jes <lude-jes@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: lude-jes <lude-jes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 17:10:56 by lude-jes          #+#    #+#             */
-/*   Updated: 2025/11/02 21:35:09 by lude-jes         ###   ########.fr       */
+/*   Updated: 2025/11/04 15:30:57 by lude-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,13 +91,12 @@ char	**ft_split(char const *s, char c)
 		while (*s == c)
 			s++;
 		result[i] = extract_word(s, c);
-		if (!result[i])
+		if (!result[i++])
 		{
-			free_split(result, i);
+			free_split(result, i - 1);
 			return (NULL);
 		}
 		s += word_len(s, c);
-		i++;
 	}
 	result[i] = NULL;
 	return (result);
